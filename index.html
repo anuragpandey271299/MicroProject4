@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+
+        <input id="displayArea" value="0" readonly>
+        <div class="buttons">
+        <button onclick="operation('7')">7</button>
+        <button onclick="operation('8')">8</button>
+        <button onclick="operation('9')">9</button>
+        <button onclick="remove()">DEL</button><br>
+        <button onclick="operation('4')">4</button>
+        <button onclick="operation('5')">5</button>
+        <button onclick="operation('6')">6</button>
+        <button onclick="operation('+')">+</button><br>
+        <button onclick="operation('1')">1</button>
+        <button onclick="operation('2')">2</button>
+        <button onclick="operation('3')">3</button>
+        <button onclick="operation('-')">-</button><br>
+        <button onclick="operation('.')">.</button>
+        <button onclick="operation('0')">0</button>
+        <button onclick="operation('/')">/</button>
+        <button onclick="operation('x')">x</button><br>
+        <button onclick="reset()">RESET</button>
+        <button onclick="answer()">=</button>
+        </div>
+    </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
